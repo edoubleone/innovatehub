@@ -1,0 +1,1100 @@
+<!-- Initiatives - Innovate Hub Foundation -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Initiatives - Innovate Hub Foundation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container": "#f0edec",
+                        "background": "#fcf8f8",
+                        "inverse-surface": "#313030",
+                        "secondary-fixed": "#dbe1ff",
+                        "on-primary-fixed": "#071c36",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "inverse-primary": "#b5c7ea",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed-variant": "#003ea8",
+                        "on-error-container": "#93000a",
+                        "primary-fixed": "#d6e3ff",
+                        "error": "#ba1a1a",
+                        "outline": "#75777e",
+                        "secondary-fixed-dim": "#b4c5ff",
+                        "on-primary-container": "#7587a7",
+                        "secondary": "#0051d5",
+                        "on-secondary-fixed": "#00174b",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#364764",
+                        "outline-variant": "#c4c6ce",
+                        "primary-fixed-dim": "#b5c7ea",
+                        "surface": "#fcf8f8",
+                        "on-tertiary-container": "#848789",
+                        "tertiary-fixed-dim": "#c4c7ca",
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-bright": "#fcf8f8",
+                        "on-surface": "#1c1b1b",
+                        "primary": "#000615",
+                        "on-background": "#1c1b1b",
+                        "on-tertiary-fixed": "#191c1e",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#316bf3",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#44474d",
+                        "tertiary-container": "#1c1f21",
+                        "surface-variant": "#e5e2e1",
+                        "surface-tint": "#4d5f7d",
+                        "tertiary": "#040608",
+                        "primary-container": "#0b1f3a",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#44474a",
+                        "surface-dim": "#dcd9d9",
+                        "surface-container-high": "#ebe7e7",
+                        "on-secondary-container": "#fefcff",
+                        "inverse-on-surface": "#f3f0ef"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "xl": "80px",
+                        "sm": "12px",
+                        "gutter": "32px",
+                        "container-max": "1280px",
+                        "xs": "4px",
+                        "md": "24px",
+                        "lg": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Noto Serif"],
+                        "label-sm": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "headline-md": ["Noto Serif"],
+                        "display-xl": ["Noto Serif"],
+                        "body-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-xl": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased font-body-md pt-[80px] pb-[80px] md:pb-0">
+<!-- TopAppBar Shared Component -->
+<nav class="bg-white/95 dark:bg-[#0B1F3A]/95 backdrop-blur-md fixed top-0 w-full z-50 border-b border-gray-100 dark:border-slate-800 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.04)] ease-in-out transform active:scale-95 hidden md:block">
+<div class="flex justify-between items-center px-8 py-5 max-w-7xl mx-auto">
+<div class="text-xl font-bold font-serif text-[#0B1F3A] dark:text-white">
+                Innovate Hub
+            </div>
+<div class="flex space-x-8 items-center font-serif text-sm tracking-wide uppercase">
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Impact</a>
+<a class="text-[#0B1F3A] dark:text-blue-400 border-b-2 border-blue-500 pb-1 font-semibold hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Initiatives</a>
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Resources</a>
+</div>
+<div class="flex items-center space-x-6">
+<div class="flex space-x-4 text-[#0B1F3A] dark:text-blue-400">
+<button class="hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+</div>
+<button class="bg-primary text-on-primary font-label-sm text-label-sm py-sm px-md rounded-DEFAULT min-h-[48px] hover:bg-secondary transition-colors duration-300">
+                    Donate
+                </button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="py-[120px] md:py-[160px] px-8 max-w-container-max mx-auto text-center md:text-left flex flex-col md:flex-row items-center gap-xl">
+<div class="md:w-3/5 space-y-md">
+<h1 class="font-display-xl text-display-xl text-on-background">
+                Building the Infrastructure of Opportunity.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                We design and fund systemic programs that bridge the digital divide, empowering communities through technology, education, and direct access.
+            </p>
+</div>
+<div class="md:w-2/5 w-full">
+<img alt="" class="w-full aspect-[4/5] object-cover rounded-xl border border-outline-variant shadow-sm" data-alt="abstract architectural geometry showing a modern bridge structure in soft morning light representing infrastructure and opportunity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqvdbOu7EWkxjGZBdaBpNaaqpAARpnm1pZPih0JM9DJL-JnIovLUFushAEnZz-XtbUMSDbqdmwHiuiI84sK_56U_Gt5HLCw-kP7_c4ril609zbo48S95DJOIfHlDMUmqvqWUKEpJEK3GoMXBJEvVIWRI22Xi3JqXD0P3jTkWTH3MiD8-bDQfCs0Q1F78Eg50qSvSJjNxH_RRIkUP5MS2opyQ9GtJUFJWwJM8rG0uQxpWN9sVmTbCDd8PPiE-mR_mbfgyCwc2kulHQ"/>
+</div>
+</header>
+<!-- Program List Section -->
+<section class="py-xl px-8 max-w-container-max mx-auto space-y-[120px]">
+<!-- Initiative 1: Image Left, Text Right -->
+<article class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-2 md:order-1">
+<img alt="" class="w-full aspect-[4/3] object-cover rounded-lg border border-outline-variant shadow-sm" data-alt="diverse group of adult students collaborating over laptops in a bright modern sunlit classroom focused on digital skills" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyGBW2daASPWJp7tOZfxfhOMtL9O9DsofzEfgH7o_s9uD5amyV7tTdnR3sTdZ_7f82JzzEr9iVzLXkaN5McyiT2en3KwuNeFCmObWUXHVAewdDp7mP6s5gWk8XZ3DPN-k50-7AOdrHIeOQ1E2xcqKxiVOE5Yto0JsqRd99M7EITzmNZay8JZeRC4ybDGz84S1I1hlqpwbETyEi81tzRMgeuyST6HZn-W-k2JaXhfFq0s3szcpMTVUXvGLUipcxzwj4GEf2mGUnCsA"/>
+</div>
+<div class="order-1 md:order-2 space-y-sm md:pl-lg">
+<span class="inline-block px-sm py-xs bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase rounded-full tracking-wider">
+                    Education
+                </span>
+<h2 class="font-headline-md text-headline-md text-on-background">Digital Skills Training</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Providing comprehensive curriculum and industry-recognized certifications to individuals in underserved areas, equipping them with the core competencies needed for the modern digital economy.
+                </p>
+</div>
+</article>
+<!-- Initiative 2: Text Left, Image Right -->
+<article class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-1 md:order-1 space-y-sm md:pr-lg">
+<span class="inline-block px-sm py-xs bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase rounded-full tracking-wider">
+                    Careers
+                </span>
+<h2 class="font-headline-md text-headline-md text-on-background">Workforce Development</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Bridging the gap between learning and earning through dedicated career coaching, portfolio reviews, and exclusive job fairs connecting graduates directly with leading tech employers.
+                </p>
+</div>
+<div class="order-2 md:order-2">
+<img alt="" class="w-full aspect-[4/3] object-cover rounded-lg border border-outline-variant shadow-sm" data-alt="professional young woman smiling warmly during a career networking event in a modern well-lit atrium" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGnu-sKPMfAKRcuSMOKRFmaYBqBpbs0tadiJkt9tK8Y0tlAEEqZneaCJzzbk_aBf70j7mndKbjtYGcEvO-d5AARca9du0QRReN_fef53EqkoGhvlE1ujDfbwcl_hU64x5LVFChd-fyeHf8vUTgpMKqn7PzLu-TLQIT6LJQRv_HoYQPNe1txlEx__yeZ_RM7DQdUnJiq3ub7vr8orxlAM0MunlKjhXB8HfpN6KhhwPC8efzBOt79NBK6L3jugRXbBGzOaaDA3tJcJg"/>
+</div>
+</article>
+<!-- Initiative 3: Image Left, Text Right -->
+<article class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-2 md:order-1">
+<img alt="" class="w-full aspect-[4/3] object-cover rounded-lg border border-outline-variant shadow-sm" data-alt="technician carefully repairing and refurbishing laptops on a clean anti-static workbench with focused lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdrlbkf-pa8EhE_JDYV6yvqt6v7YK-zKY45LxjYqsIDzWrYES5RFJS4lqq8GJVSFIdBq32RwdKWomvfMewi4NYLZKKg1t83WxYk522TXomr9YA5Hv7b27wOZFQTp-1XsN5PoltkmWrHqnvzW8knfyGI6rq3pgF4966ORiUJh0z3GxtfarxajNHEBCmeC8_eUlnsFkLy7kV4gPaWuHhuxk7neGd4B4lS5IK2aVCsXocNv9cBGO3hfJNaunbwODXokjas0agRr0zD2k"/>
+</div>
+<div class="order-1 md:order-2 space-y-sm md:pl-lg">
+<span class="inline-block px-sm py-xs bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase rounded-full tracking-wider">
+                    Access
+                </span>
+<h2 class="font-headline-md text-headline-md text-on-background">Device Access</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Ensuring that hardware limitations do not hinder potential. We manage large-scale refurbishment programs and distribute reliable laptops and high-speed mobile hotspots to families in need.
+                </p>
+</div>
+</article>
+<!-- Initiative 4: Text Left, Image Right -->
+<article class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-1 md:order-1 space-y-sm md:pr-lg">
+<span class="inline-block px-sm py-xs bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase rounded-full tracking-wider">
+                    Next Gen
+                </span>
+<h2 class="font-headline-md text-headline-md text-on-background">Youth Innovation</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Inspiring the next generation of technologists through immersive STEM workshops, hands-on robotics sessions, and intensive summer coding camps designed for middle and high school students.
+                </p>
+</div>
+<div class="order-2 md:order-2">
+<img alt="" class="w-full aspect-[4/3] object-cover rounded-lg border border-outline-variant shadow-sm" data-alt="young students engaged deeply in a robotics workshop building circuit boards on a wooden table with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-WMEHgtY6b6OeHRucEYPV5-_OytEFMDVros-E5tWTaUx-KpyfTTOt-qCjlvSzcsevl4LANQPMdC0Wsu2IsVTZIP4GlUz8ioPzmNkvJUcyL-_zmU1ch6bsV0M3lOH6L3iw2Dq439J71kwZer_WPT6NhJ-adNiuhEfe2rDLBS5Ab2Hzzem3c5-zkXnfNp1pvXljZmrdNCpgOIlxjlsNcPYufpcwneaF28aHm155CZph68SfT0rG0PoQNkBJIRkIIBxdYYvo5EzsQbc"/>
+</div>
+</article>
+</section>
+<!-- Partner Section -->
+<section class="bg-surface-container-low py-xl px-8 border-y border-outline-variant/30">
+<div class="max-w-container-max mx-auto text-center">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-lg">Powered by Collaboration</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto mb-xl">
+                Our initiatives are sustained and scaled through the dedicated support of our corporate sponsors, community organizations, and academic partners.
+            </p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-md items-center justify-items-center opacity-60">
+<!-- Abstract Partner Placeholders representing logos -->
+<div class="w-32 h-16 border border-outline flex items-center justify-center rounded-DEFAULT bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Partner</span>
+</div>
+<div class="w-32 h-16 border border-outline flex items-center justify-center rounded-DEFAULT bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Sponsor</span>
+</div>
+<div class="w-32 h-16 border border-outline flex items-center justify-center rounded-DEFAULT bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Academic</span>
+</div>
+<div class="w-32 h-16 border border-outline flex items-center justify-center rounded-DEFAULT bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Corporate</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-[120px] px-8 text-center bg-surface-container-highest">
+<div class="max-w-3xl mx-auto space-y-md bg-surface-container-lowest p-xl rounded-xl border border-outline-variant shadow-sm">
+<h2 class="font-headline-lg text-headline-lg text-on-background">Join an Initiative</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Whether you want to volunteer as a mentor, donate equipment, or partner your organization with our programs, your involvement drives our impact.
+            </p>
+<div class="pt-sm">
+<button class="bg-secondary text-on-secondary font-label-sm text-label-sm py-sm px-lg rounded-DEFAULT min-h-[48px] hover:opacity-90 transition-opacity duration-300">
+                    Get Involved
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer Shared Component -->
+<footer class="bg-slate-50 dark:bg-[#050f1d] w-full py-16 border-t border-gray-200 dark:border-slate-800 flat smooth-scroll">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="space-y-4">
+<div class="font-serif font-semibold text-[#0B1F3A] dark:text-white text-lg">
+                    Innovate Hub
+                </div>
+<p class="text-[#0B1F3A] dark:text-slate-300 font-sans text-xs tracking-normal">
+                    © 2024 Innovate Hub Foundation. Tech for Philanthropy.
+                </p>
+</div>
+<div class="flex flex-wrap gap-6 md:justify-end font-sans text-xs tracking-normal">
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4" href="#">Success Stories</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4" href="#">Partner Portal</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4" href="#">Global Impact</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4" href="#">Contact</a>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar Shared Component -->
+<nav class="bg-white/90 dark:bg-[#0B1F3A]/90 backdrop-blur-xl fixed bottom-0 w-full z-50 md:hidden border-t border-gray-100 dark:border-slate-800 shadow-[0_-4px_12px_-2px_rgba(0,0,0,0.03)] vibration-feedback transition-all duration-200 fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-safe pt-2 min-h-[72px]">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 active:bg-slate-100 dark:active:bg-slate-800 rounded-lg p-2 w-full" href="#">
+<span class="material-symbols-outlined mb-1">monitoring</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter">Impact</span>
+</a>
+<a class="flex flex-col items-center justify-center text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-900/20 rounded-xl px-4 py-1 active:bg-slate-100 dark:active:bg-slate-800 w-full" href="#">
+<span class="material-symbols-outlined mb-1">rocket_launch</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter">Initiatives</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 active:bg-slate-100 dark:active:bg-slate-800 rounded-lg p-2 w-full" href="#">
+<span class="material-symbols-outlined mb-1">library_books</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter">Resources</span>
+</a>
+</nav>
+</body></html>
+
+<!-- Impact - Innovate Hub Foundation -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Impact - Innovate Hub Foundation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Noto+Serif:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container": "#f0edec",
+                      "background": "#fcf8f8",
+                      "inverse-surface": "#313030",
+                      "secondary-fixed": "#dbe1ff",
+                      "on-primary-fixed": "#071c36",
+                      "on-error": "#ffffff",
+                      "surface-container-highest": "#e5e2e1",
+                      "inverse-primary": "#b5c7ea",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed-variant": "#003ea8",
+                      "on-error-container": "#93000a",
+                      "primary-fixed": "#d6e3ff",
+                      "error": "#ba1a1a",
+                      "outline": "#75777e",
+                      "secondary-fixed-dim": "#b4c5ff",
+                      "on-primary-container": "#7587a7",
+                      "secondary": "#0051d5",
+                      "on-secondary-fixed": "#00174b",
+                      "surface-container-low": "#f6f3f2",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-fixed-variant": "#364764",
+                      "outline-variant": "#c4c6ce",
+                      "primary-fixed-dim": "#b5c7ea",
+                      "surface": "#fcf8f8",
+                      "on-tertiary-container": "#848789",
+                      "tertiary-fixed-dim": "#c4c7ca",
+                      "tertiary-fixed": "#e0e3e6",
+                      "surface-bright": "#fcf8f8",
+                      "on-surface": "#1c1b1b",
+                      "primary": "#000615",
+                      "on-background": "#1c1b1b",
+                      "on-tertiary-fixed": "#191c1e",
+                      "on-primary": "#ffffff",
+                      "secondary-container": "#316bf3",
+                      "on-secondary": "#ffffff",
+                      "on-surface-variant": "#44474d",
+                      "tertiary-container": "#1c1f21",
+                      "surface-variant": "#e5e2e1",
+                      "surface-tint": "#4d5f7d",
+                      "tertiary": "#040608",
+                      "primary-container": "#0b1f3a",
+                      "error-container": "#ffdad6",
+                      "on-tertiary-fixed-variant": "#44474a",
+                      "surface-dim": "#dcd9d9",
+                      "surface-container-high": "#ebe7e7",
+                      "on-secondary-container": "#fefcff",
+                      "inverse-on-surface": "#f3f0ef"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "base": "8px",
+                      "xl": "80px",
+                      "sm": "12px",
+                      "gutter": "32px",
+                      "container-max": "1280px",
+                      "xs": "4px",
+                      "md": "24px",
+                      "lg": "48px"
+              },
+              "fontFamily": {
+                      "headline-lg": [
+                              "Noto Serif"
+                      ],
+                      "label-sm": [
+                              "Manrope"
+                      ],
+                      "body-md": [
+                              "Manrope"
+                      ],
+                      "headline-md": [
+                              "Noto Serif"
+                      ],
+                      "display-xl": [
+                              "Noto Serif"
+                      ],
+                      "body-lg": [
+                              "Manrope"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-xl": [
+                              "64px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        body { background-color: theme('colors.background'); color: theme('colors.on-background'); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="antialiased font-body-md text-body-md">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/95 dark:bg-[#0B1F3A]/95 backdrop-blur-md border-b border-gray-100 dark:border-slate-800 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.04)]">
+<div class="flex justify-between items-center px-8 py-5 max-w-7xl mx-auto">
+<div class="text-xl font-bold font-serif text-[#0B1F3A] dark:text-white">Innovate Hub</div>
+<nav class="hidden md:flex gap-8 font-serif text-sm tracking-wide uppercase text-[#0B1F3A] dark:text-blue-400">
+<a class="text-[#0B1F3A] dark:text-blue-400 border-b-2 border-blue-500 pb-1 font-semibold ease-in-out transform active:scale-95 hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Impact</a>
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300 ease-in-out transform active:scale-95" href="#">Initiatives</a>
+<a class="text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300 ease-in-out transform active:scale-95" href="#">Resources</a>
+</nav>
+<div class="hidden md:flex items-center gap-6">
+<div class="flex gap-4 text-[#0B1F3A] dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300">
+<span class="material-symbols-outlined cursor-pointer ease-in-out transform active:scale-95">search</span>
+<span class="material-symbols-outlined cursor-pointer ease-in-out transform active:scale-95">account_circle</span>
+</div>
+<button class="bg-primary-container text-on-primary font-label-sm text-label-sm uppercase px-sm py-xs rounded hover:bg-secondary transition-colors duration-300 min-h-[48px] px-6">Donate</button>
+</div>
+</div>
+</header>
+<main class="pt-[100px] pb-xl">
+<!-- Section 1: Hero -->
+<section class="max-w-container-max mx-auto px-gutter py-xl flex flex-col items-center text-center">
+<h1 class="font-display-xl text-display-xl text-primary max-w-[900px] mb-md leading-tight">Our Impact: <br/>By the Numbers</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[600px]">Measuring the tangible outcomes of our commitment to technological empowerment and community philanthropy.</p>
+</section>
+<!-- Section 2: Stats Grid -->
+<section class="max-w-container-max mx-auto px-gutter py-lg">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between h-full">
+<span class="material-symbols-outlined text-secondary mb-md" style="font-size: 32px;">group</span>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary mb-xs">10k+</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">People Trained</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between h-full">
+<span class="material-symbols-outlined text-secondary mb-md" style="font-size: 32px;">payments</span>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary mb-xs">$25M</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Local Economic Impact</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between h-full">
+<span class="material-symbols-outlined text-secondary mb-md" style="font-size: 32px;">devices</span>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary mb-xs">5k</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Devices Distributed</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between h-full">
+<span class="material-symbols-outlined text-secondary mb-md" style="font-size: 32px;">work</span>
+<div>
+<div class="font-headline-lg text-headline-lg text-primary mb-xs">92%</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Job Placement Rate</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Success Story -->
+<section class="max-w-container-max mx-auto px-gutter py-xl">
+<div class="bg-surface-container rounded-xl overflow-hidden flex flex-col lg:flex-row items-center border border-outline-variant">
+<div class="w-full lg:w-1/2 h-[400px] lg:h-[600px] relative">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="professional portrait of a confident young woman in a well-lit modern office space looking directly at camera" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVd0wmLJVIklxVjYYL8dizmUepPKcxIPynQOY0IYQRc7nFh3ODkmzpAfMicl30IwwheyftGoZkU3f3qw-CfYwXZCw-DiJRxmONFxP6reDrmna0Qkzrxnr8pyQpSCRmPwjpJ5sTnmw6LXBRTXKAP5sJ-Xsqqgbesicj3_kL9ziPwLemZAfmXKp29AaIPAk1KVJEo1vu_CKAh-PauU1O2a2RZbGHdVZUVk_XXsJQF8mFPSgXYOQgx4co86q_detPxGXiQoHj6n9WUxA');"></div>
+</div>
+<div class="w-full lg:w-1/2 p-xl lg:p-[80px] flex flex-col justify-center">
+<span class="material-symbols-outlined text-secondary mb-md" style="font-size: 48px;">format_quote</span>
+<blockquote class="font-headline-md text-headline-md text-primary mb-lg leading-tight">
+                        "The resources provided didn't just give me hardware; they gave me a trajectory. I went from being unsure about my future in tech to leading a team of developers."
+                    </blockquote>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase mb-xs">Sarah Jenkins</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Lead Engineer, Program Graduate '22</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Data Visualization -->
+<section class="bg-surface-container-low py-xl border-y border-outline-variant mt-xl">
+<div class="max-w-container-max mx-auto px-gutter flex flex-col lg:flex-row gap-xl items-center">
+<div class="w-full lg:w-1/3">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-md">Growth in Digital Literacy across Maryland</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Our strategic initiatives have driven measurable improvements in technological proficiency across targeted communities over the past four years.</p>
+</div>
+<div class="w-full lg:w-2/3 bg-surface-container-lowest p-lg rounded-xl border border-outline-variant shadow-sm flex flex-col gap-md">
+<!-- Chart Bar 1 -->
+<div class="flex items-center gap-md">
+<span class="font-label-sm text-label-sm w-16 text-right">2020</span>
+<div class="flex-grow h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-1/4 rounded-full"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary w-12">25%</span>
+</div>
+<!-- Chart Bar 2 -->
+<div class="flex items-center gap-md">
+<span class="font-label-sm text-label-sm w-16 text-right">2021</span>
+<div class="flex-grow h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-2/5 rounded-full"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary w-12">40%</span>
+</div>
+<!-- Chart Bar 3 -->
+<div class="flex items-center gap-md">
+<span class="font-label-sm text-label-sm w-16 text-right">2022</span>
+<div class="flex-grow h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-3/5 rounded-full"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary w-12">60%</span>
+</div>
+<!-- Chart Bar 4 -->
+<div class="flex items-center gap-md">
+<span class="font-label-sm text-label-sm w-16 text-right">2023</span>
+<div class="flex-grow h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-[85%] rounded-full"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary w-12">85%</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Final CTA -->
+<section class="max-w-container-max mx-auto px-gutter py-[120px] text-center flex flex-col items-center">
+<h2 class="font-display-xl text-display-xl text-primary mb-md">Help Us Do More</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[500px] mb-lg">Your support translates directly into transformative opportunities for individuals entering the digital economy.</p>
+<button class="bg-primary-container text-on-primary font-label-sm text-label-sm uppercase px-xl py-sm rounded hover:bg-secondary transition-colors duration-300 min-h-[48px] flex items-center gap-sm">
+                Donate
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 md:hidden border-t border-t border-gray-100 dark:border-slate-800 shadow-[0_-4px_12px_-2px_rgba(0,0,0,0.03)] bg-white/90 dark:bg-[#0B1F3A]/90 backdrop-blur-xl">
+<div class="flex justify-around items-center px-4 pb-safe pt-2">
+<a class="flex flex-col items-center justify-center text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-900/20 rounded-xl px-4 py-1 vibration-feedback transition-all duration-200 active:bg-slate-100 dark:active:bg-slate-800" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">monitoring</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter mt-1">Impact</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 vibration-feedback transition-all duration-200 active:bg-slate-100 dark:active:bg-slate-800 px-4 py-1" href="#">
+<span class="material-symbols-outlined">rocket_launch</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter mt-1">Initiatives</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 vibration-feedback transition-all duration-200 active:bg-slate-100 dark:active:bg-slate-800 px-4 py-1" href="#">
+<span class="material-symbols-outlined">library_books</span>
+<span class="font-sans text-[11px] font-bold uppercase tracking-tighter mt-1">Resources</span>
+</a>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-gray-200 dark:border-slate-800 bg-slate-50 dark:bg-[#050f1d] pb-24 md:pb-16">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<div class="font-serif font-semibold text-[#0B1F3A] dark:text-white mb-4 text-lg">Innovate Hub</div>
+<p class="font-sans text-xs tracking-normal text-[#0B1F3A] dark:text-slate-300 opacity-70">© 2024 Innovate Hub Foundation. Tech for Philanthropy.</p>
+</div>
+<div class="flex flex-wrap gap-6 md:justify-end font-sans text-xs tracking-normal">
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Success Stories</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Partner Portal</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Global Impact</a>
+<a class="text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Resources - Innovate Hub Foundation -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Resources - Innovate Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Noto+Serif:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container": "#f0edec",
+                        "background": "#fcf8f8",
+                        "inverse-surface": "#313030",
+                        "secondary-fixed": "#dbe1ff",
+                        "on-primary-fixed": "#071c36",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "inverse-primary": "#b5c7ea",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed-variant": "#003ea8",
+                        "on-error-container": "#93000a",
+                        "primary-fixed": "#d6e3ff",
+                        "error": "#ba1a1a",
+                        "outline": "#75777e",
+                        "secondary-fixed-dim": "#b4c5ff",
+                        "on-primary-container": "#7587a7",
+                        "secondary": "#0051d5",
+                        "on-secondary-fixed": "#00174b",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#364764",
+                        "outline-variant": "#c4c6ce",
+                        "primary-fixed-dim": "#b5c7ea",
+                        "surface": "#fcf8f8",
+                        "on-tertiary-container": "#848789",
+                        "tertiary-fixed-dim": "#c4c7ca",
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-bright": "#fcf8f8",
+                        "on-surface": "#1c1b1b",
+                        "primary": "#000615",
+                        "on-background": "#1c1b1b",
+                        "on-tertiary-fixed": "#191c1e",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#316bf3",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#44474d",
+                        "tertiary-container": "#1c1f21",
+                        "surface-variant": "#e5e2e1",
+                        "surface-tint": "#4d5f7d",
+                        "tertiary": "#040608",
+                        "primary-container": "#0b1f3a",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#44474a",
+                        "surface-dim": "#dcd9d9",
+                        "surface-container-high": "#ebe7e7",
+                        "on-secondary-container": "#fefcff",
+                        "inverse-on-surface": "#f3f0ef"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "xl": "80px",
+                        "sm": "12px",
+                        "gutter": "32px",
+                        "container-max": "1280px",
+                        "xs": "4px",
+                        "md": "24px",
+                        "lg": "48px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Noto Serif"],
+                        "label-sm": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "headline-md": ["Noto Serif"],
+                        "display-xl": ["Noto Serif"],
+                        "body-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-xl": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        /* Details marker styling */
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        details[open] summary ~ * { animation: sweep .5s ease-in-out; }
+        @keyframes sweep {
+            0%    {opacity: 0; margin-top: -10px}
+            100%  {opacity: 1; margin-top: 0px}
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen pt-[88px] pb-[88px] md:pb-0 font-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopAppBar (Desktop) -->
+<header class="hidden md:flex flex-col bg-white/95 dark:bg-[#0B1F3A]/95 backdrop-blur-md fixed top-0 w-full z-50 border-b border-gray-100 dark:border-slate-800 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.04)]">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1280px] w-full mx-auto">
+<div class="flex items-center gap-md">
+<span class="text-xl font-bold font-serif text-[#0B1F3A] dark:text-white">Innovate Hub</span>
+</div>
+<nav class="flex items-center gap-gutter">
+<a class="font-serif text-sm tracking-wide uppercase text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300 ease-in-out transform active:scale-95" href="#">Impact</a>
+<a class="font-serif text-sm tracking-wide uppercase text-slate-500 dark:text-slate-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300 ease-in-out transform active:scale-95" href="#">Initiatives</a>
+<a class="font-serif text-sm tracking-wide uppercase text-[#0B1F3A] dark:text-blue-400 border-b-2 border-blue-500 pb-1 font-semibold hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300 ease-in-out transform active:scale-95" href="#">Resources</a>
+</nav>
+<div class="flex items-center gap-md">
+<div class="flex items-center gap-sm">
+<button class="text-[#0B1F3A] dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">search</span>
+</button>
+<button class="text-[#0B1F3A] dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">account_circle</span>
+</button>
+</div>
+<button class="bg-primary text-on-primary font-label-sm text-label-sm px-6 py-3 rounded hover:bg-primary-fixed-variant transition-colors min-h-[48px] uppercase tracking-wide">
+                    Donate
+                </button>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="w-full max-w-[1280px] mx-auto px-4 md:px-8">
+<!-- Section 1: Hero -->
+<section class="py-xl md:py-[120px] flex flex-col items-center justify-center text-center max-w-3xl mx-auto">
+<h1 class="font-display-xl text-display-xl text-on-surface mb-md">Knowledge &amp; Tools for the Digital Age.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg max-w-2xl">Access our curated library of research, tools, and guides designed to bridge the digital divide and empower communities.</p>
+<div class="w-full max-w-xl relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline" style="font-variation-settings: 'FILL' 0;">search</span>
+<input class="w-full bg-surface-container-low border-outline-variant text-on-surface rounded-full py-4 pl-12 pr-4 focus:bg-surface-container-lowest focus:border-secondary focus:ring-1 focus:ring-secondary focus:outline-none transition-all shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] font-body-md text-body-md" placeholder="Search resources, reports, or tools..." type="text"/>
+</div>
+</section>
+<!-- Section 2: Filterable Resource Grid -->
+<section class="mb-xl md:mb-[120px]">
+<div class="flex flex-wrap items-center justify-center gap-sm mb-lg">
+<button class="px-6 py-2 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider">All Resources</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-container-high transition-colors">Tools</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-container-high transition-colors">Reports</button>
+<button class="px-6 py-2 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-wider hover:bg-surface-container-high transition-colors">Guides</button>
+</div>
+<!-- Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md auto-rows-[250px]">
+<!-- Digital Literacy Guide (PDF) - Large Span -->
+<a class="group md:col-span-2 md:row-span-2 bg-surface-container-lowest border border-outline-variant rounded-xl p-lg flex flex-col justify-between hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all overflow-hidden relative" href="#">
+<div class="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&amp;w=2070&amp;auto=format&amp;fit=crop')] bg-cover bg-center" data-alt="close-up of hands typing on a laptop keyboard in a bright modern workspace, monochrome tones"></div>
+<div class="relative z-10 flex justify-between items-start mb-4">
+<span class="px-3 py-1 bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm rounded uppercase tracking-wider">Guide • PDF</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" style="font-variation-settings: 'FILL' 0;">arrow_outward</span>
+</div>
+<div class="relative z-10">
+<h3 class="font-headline-lg text-headline-lg text-on-surface mb-sm group-hover:text-secondary transition-colors">Digital Literacy Guide</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">A comprehensive curriculum for teaching foundational digital skills to diverse communities, complete with worksheets and trainer notes.</p>
+</div>
+</a>
+<!-- Internet Subsidy Navigator (Tool) - Tall -->
+<a class="group md:row-span-2 bg-surface-container-lowest border border-outline-variant rounded-xl p-md flex flex-col hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all" href="#">
+<div class="flex justify-between items-start mb-auto">
+<span class="px-3 py-1 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm rounded uppercase tracking-wider">Interactive Tool</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" style="font-variation-settings: 'FILL' 0;">build</span>
+</div>
+<div class="mt-8">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-full mb-md text-secondary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">explore</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-sm group-hover:text-secondary transition-colors">Internet Subsidy Navigator</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Find and apply for local and federal broadband assistance programs in your specific zip code.</p>
+</div>
+</a>
+<!-- Maryland Tech Census (Report) - Wide -->
+<a class="group md:col-span-2 bg-surface-container-lowest border border-outline-variant rounded-xl p-md flex flex-col justify-center hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all" href="#">
+<div class="flex justify-between items-start mb-sm">
+<span class="px-3 py-1 bg-surface-variant text-on-surface-variant font-label-sm text-label-sm rounded uppercase tracking-wider">Research Report</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" style="font-variation-settings: 'FILL' 0;">download</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-xs group-hover:text-secondary transition-colors">Maryland Tech Census 2024</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Annual analysis of broadband adoption and device access across demographics.</p>
+</a>
+<!-- Job Readiness Checklist (PDF) - Square -->
+<a class="group bg-surface-container-lowest border border-outline-variant rounded-xl p-md flex flex-col justify-center hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all" href="#">
+<div class="flex justify-between items-start mb-sm">
+<span class="px-3 py-1 bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm rounded uppercase tracking-wider">Checklist</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors" style="font-variation-settings: 'FILL' 0;">picture_as_pdf</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-xs group-hover:text-secondary transition-colors text-xl">Job Readiness Checklist</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Essential digital requirements for the modern job hunt.</p>
+</a>
+</div>
+</section>
+<!-- Section 3: FAQ -->
+<section class="mb-xl md:mb-[120px] max-w-3xl mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-lg text-center">Frequently Asked Questions</h2>
+<div class="flex flex-col border-t border-outline-variant">
+<details class="group py-md border-b border-outline-variant cursor-pointer">
+<summary class="flex justify-between items-center font-headline-md text-headline-md text-on-surface text-2xl outline-none">
+                        How often are these resources updated?
+                        <span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform duration-300" style="font-variation-settings: 'FILL' 0;">expand_more</span>
+</summary>
+<div class="pt-sm text-body-lg font-body-lg text-on-surface-variant">
+                        We review and update our core toolkits quarterly. Research reports are published annually. You can check the "last updated" date on individual document pages.
+                    </div>
+</details>
+<details class="group py-md border-b border-outline-variant cursor-pointer">
+<summary class="flex justify-between items-center font-headline-md text-headline-md text-on-surface text-2xl outline-none">
+                        Can I use these materials for my own nonprofit?
+                        <span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform duration-300" style="font-variation-settings: 'FILL' 0;">expand_more</span>
+</summary>
+<div class="pt-sm text-body-lg font-body-lg text-on-surface-variant">
+                        Yes. All resources provided here are licensed under Creative Commons (CC BY-NC 4.0), meaning you can adapt and share them for non-commercial purposes, provided you credit Innovate Hub.
+                    </div>
+</details>
+<details class="group py-md border-b border-outline-variant cursor-pointer">
+<summary class="flex justify-between items-center font-headline-md text-headline-md text-on-surface text-2xl outline-none">
+                        How do I suggest a new resource?
+                        <span class="material-symbols-outlined text-on-surface-variant group-open:rotate-180 transition-transform duration-300" style="font-variation-settings: 'FILL' 0;">expand_more</span>
+</summary>
+<div class="pt-sm text-body-lg font-body-lg text-on-surface-variant">
+                        We welcome community contributions. Please reach out via our Partner Portal to submit tools, research, or guides that align with our mission of digital equity.
+                    </div>
+</details>
+</div>
+</section>
+<!-- Section 4: Newsletter -->
+<section class="mb-xl md:mb-[120px] bg-surface-container-low rounded-xl p-lg md:p-[64px] border border-outline-variant flex flex-col md:flex-row items-center justify-between gap-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.02)]">
+<div class="max-w-md">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-sm">Stay Informed on Digital Equity</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Join our monthly newsletter to receive the latest research, newly published guides, and updates on policy changes affecting digital access.</p>
+</div>
+<form class="w-full md:w-auto flex flex-col sm:flex-row gap-sm flex-grow max-w-lg">
+<input class="flex-grow bg-surface-container-lowest border-outline-variant text-on-surface rounded py-3 px-4 focus:border-secondary focus:ring-1 focus:ring-secondary focus:outline-none font-body-md text-body-md min-h-[48px]" placeholder="Email address" required="" type="email"/>
+<button class="bg-primary text-on-primary font-label-sm text-label-sm px-8 py-3 rounded hover:bg-primary-fixed-variant transition-colors min-h-[48px] uppercase tracking-wide whitespace-nowrap" type="submit">
+                    Subscribe
+                </button>
+</form>
+</section>
+</main>
+<!-- BottomNavBar (Mobile) -->
+<nav class="md:hidden flex flex-col bg-white/90 dark:bg-[#0B1F3A]/90 backdrop-blur-xl fixed bottom-0 left-0 w-full z-50 border-t border-gray-100 dark:border-slate-800 shadow-[0_-4px_12px_-2px_rgba(0,0,0,0.03)] pb-safe pt-2">
+<div class="flex justify-around items-center px-4 w-full">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 font-sans text-[11px] font-bold uppercase tracking-tighter active:bg-slate-100 dark:active:bg-slate-800 vibration-feedback transition-all duration-200 py-1 px-4 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">monitoring</span>
+                Impact
+            </a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 font-sans text-[11px] font-bold uppercase tracking-tighter active:bg-slate-100 dark:active:bg-slate-800 vibration-feedback transition-all duration-200 py-1 px-4 rounded-xl" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">rocket_launch</span>
+                Initiatives
+            </a>
+<a class="flex flex-col items-center justify-center text-blue-600 dark:text-blue-400 bg-blue-50/50 dark:bg-blue-900/20 rounded-xl px-4 py-1 font-sans text-[11px] font-bold uppercase tracking-tighter active:bg-slate-100 dark:active:bg-slate-800 vibration-feedback transition-all duration-200" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">library_books</span>
+                Resources
+            </a>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-[#050f1d] w-full py-16 border-t border-gray-200 dark:border-slate-800">
+<div class="max-w-[1280px] mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div class="flex flex-col gap-4">
+<span class="font-serif font-semibold text-[#0B1F3A] dark:text-white text-xl">Innovate Hub</span>
+<p class="font-sans text-xs tracking-normal text-[#0B1F3A] dark:text-slate-300">© 2024 Innovate Hub Foundation. Tech for Philanthropy.</p>
+</div>
+<nav class="flex flex-wrap gap-x-8 gap-y-4 md:justify-end">
+<a class="font-sans text-xs tracking-normal text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Success Stories</a>
+<a class="font-sans text-xs tracking-normal text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Partner Portal</a>
+<a class="font-sans text-xs tracking-normal text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Global Impact</a>
+<a class="font-sans text-xs tracking-normal text-slate-500 hover:text-blue-600 transition-colors hover:opacity-80 underline-offset-4 smooth-scroll" href="#">Contact</a>
+</nav>
+</div>
+</footer>
+</body></html>
+
+<!-- Design System -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Innovate Hub Foundation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Noto+Serif:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed": "#e0e3e6",
+                        "surface-tint": "#4d5f7d",
+                        "surface-container-high": "#ebe7e7",
+                        "on-primary-fixed": "#071c36",
+                        "on-surface": "#1c1b1b",
+                        "surface-container-low": "#f6f3f2",
+                        "tertiary": "#040608",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "secondary": "#0051d5",
+                        "outline": "#75777e",
+                        "outline-variant": "#c4c6ce",
+                        "on-surface-variant": "#44474d",
+                        "primary": "#000615",
+                        "primary-fixed": "#d6e3ff",
+                        "on-error-container": "#93000a",
+                        "on-primary-container": "#7587a7",
+                        "tertiary-container": "#1c1f21",
+                        "surface-container": "#f0edec",
+                        "surface-container-highest": "#e5e2e1",
+                        "background": "#fcf8f8",
+                        "surface-bright": "#fcf8f8",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed": "#00174b",
+                        "on-secondary-fixed-variant": "#003ea8",
+                        "surface-variant": "#e5e2e1",
+                        "primary-container": "#0b1f3a",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#dbe1ff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-background": "#1c1b1b",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed-dim": "#c4c7ca",
+                        "surface-dim": "#dcd9d9",
+                        "secondary-container": "#316bf3",
+                        "inverse-primary": "#b5c7ea",
+                        "on-primary-fixed-variant": "#364764",
+                        "secondary-fixed-dim": "#b4c5ff",
+                        "on-primary": "#ffffff",
+                        "surface": "#fcf8f8",
+                        "on-tertiary-fixed-variant": "#44474a",
+                        "on-secondary-container": "#fefcff",
+                        "error-container": "#ffdad6",
+                        "inverse-surface": "#313030",
+                        "on-tertiary-fixed": "#191c1e",
+                        "primary-fixed-dim": "#b5c7ea",
+                        "on-tertiary-container": "#848789"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "xs": "4px",
+                        "sm": "12px",
+                        "lg": "48px",
+                        "container-max": "1280px",
+                        "md": "24px",
+                        "xl": "80px",
+                        "gutter": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Noto Serif"],
+                        "label-sm": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "headline-md": ["Noto Serif"],
+                        "display-xl": ["Noto Serif"],
+                        "body-lg": ["Manrope"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "label-sm": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "display-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopAppBar from JSON -->
+<header class="fixed top-0 w-full z-50 bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border-b border-gray-100 dark:border-slate-800 shadow-sm">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-xl font-bold tracking-tighter text-[#0B1F3A] dark:text-white">
+                Innovate Hub
+            </div>
+<nav class="hidden md:flex gap-8">
+<a class="text-[#0B1F3A] dark:text-white border-b-2 border-[#0B1F3A] pb-1 font-noto-serif text-sm tracking-tight hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Our Vision</a>
+<a class="text-gray-500 dark:text-gray-400 font-medium font-noto-serif text-sm tracking-tight hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Impact</a>
+<a class="text-gray-500 dark:text-gray-400 font-medium font-noto-serif text-sm tracking-tight hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Initiatives</a>
+<a class="text-gray-500 dark:text-gray-400 font-medium font-noto-serif text-sm tracking-tight hover:text-blue-600 dark:hover:text-blue-300 transition-colors duration-300" href="#">Resources</a>
+</nav>
+<button class="bg-primary-container text-white px-6 py-3 rounded-full font-label-sm hover:bg-secondary hover:shadow-[0_0_8px_rgba(0,81,213,0.5)] transition-all duration-300 hidden md:block">
+                Donate Now
+            </button>
+</div>
+</header>
+<main class="pt-24 md:pt-32">
+<!-- Hero Section -->
+<section class="max-w-[1280px] mx-auto px-8 py-lg md:py-xl flex flex-col md:flex-row items-center gap-12">
+<div class="flex-1 space-y-8">
+<h1 class="font-display-xl text-display-xl text-on-surface">Closing the Digital Divide. Unlocking Human Potential.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                    We provide the tools, training, and connectivity needed to ensure Maryland's future includes everyone.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary-container text-white px-8 py-4 rounded-full font-label-sm min-h-[48px] hover:bg-secondary hover:shadow-[0_0_8px_rgba(0,81,213,0.5)] transition-all duration-300">
+                        Donate
+                    </button>
+<button class="border border-outline text-on-surface px-8 py-4 rounded-full font-label-sm min-h-[48px] hover:bg-surface-container-highest transition-all duration-300">
+                        Get Involved
+                    </button>
+</div>
+</div>
+<div class="flex-1 w-full">
+<img alt="Person using modern technology in a bright, modern community setting" class="w-full h-[500px] object-cover rounded-xl shadow-sm" data-alt="young professional using modern laptop in a bright sunlit modern community center with soft natural light and subtle green plants" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZG_UQvw_Y-Lr2QRBs_9lERHAS9hqXkvGcbHMlXnklq3lR7l73tB14frd8yw_xEWyPnU-3RmnC109zOHBYRwnF111Mjbcyk0Wev5RmJzOIOTxftc2_i_Crhu2_yiapslz5v0QZ68m6VItUgVJ5jBGfZKn0KUd4zzoIB-R-gIvMQAV_gDJ3mqspCRPEoXYxL84pt70UzWdrYndo1LvJUZtCgHanEwhDBxTcWjn6_tRmLT7UKC1QAy1oArnNlPHgx7mb6nE8U7QRUDg"/>
+</div>
+</section>
+<!-- Trust Strip -->
+<section class="border-y border-surface-variant bg-surface-container-low py-12">
+<div class="max-w-[1280px] mx-auto px-8 flex flex-wrap justify-center md:justify-between items-center gap-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+<span class="font-headline-md text-xl font-bold text-on-surface">Per Scholas</span>
+<span class="font-headline-md text-xl font-bold text-on-surface">NPower</span>
+<span class="font-headline-md text-xl font-bold text-on-surface">EveryoneOn</span>
+<span class="font-headline-md text-xl font-bold text-on-surface">Digital Promise</span>
+</div>
+</section>
+<!-- About Section -->
+<section class="max-w-[1280px] mx-auto px-8 py-xl">
+<div class="flex flex-col md:flex-row gap-16 items-center">
+<div class="flex-1 w-full order-2 md:order-1">
+<img alt="Team collaborating in a modern workspace" class="w-full h-[600px] object-cover rounded-xl shadow-[0_4px_24px_rgba(0,0,0,0.04)]" data-alt="diverse group of adults collaborating thoughtfully around a modern table with laptops soft ambient lighting professional modern setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjxGMPMbFekbBrm0xIhlCLYVuhg71Rb1_EfGzBWzt56pnZsnNFOecmHZZeg8ThJoVm2x_M1JgGzAvMff3hTouAO7gQQpZwW69mPbcsMreLGf6B1YT0iyH8OI_ZVU3oBaap2err-YWPZWX1dF09yZNSQTVbwW_kZCIGCrK-_ShqBB-hLluY-aq9u-acJmYVqfn6kCS6OWjJNl4i2HSSnBRSMZAdw1n9e3evbjDSvKlB-CYYP9ou0ekGTNLeuA7bfTG9uTgeKYF46GY"/>
+</div>
+<div class="flex-1 space-y-6 order-1 md:order-2">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">We Turn Access Into Opportunity</h2>
+<div class="w-12 h-1 bg-secondary rounded-full"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        Our mission is to transform digital access from a privilege into a fundamental right. We believe that by bridging the digital divide, we create pathways to real-world economic opportunity, empowering individuals to thrive in a technology-driven economy.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Through strategic partnerships and community-focused initiatives, we provide the essential infrastructure and education needed to ensure no one is left behind.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Call To Action Section -->
+<section class="bg-primary-container text-white py-xl">
+<div class="max-w-[1280px] mx-auto px-8 text-center space-y-8">
+<h2 class="font-headline-lg text-headline-lg max-w-3xl mx-auto">Maryland's Future Should Include Everyone.</h2>
+<div class="flex flex-wrap justify-center gap-6 pt-4">
+<button class="bg-secondary text-white px-8 py-4 rounded-full font-label-sm min-h-[48px] hover:bg-secondary-container transition-all duration-300">
+                        Donate
+                    </button>
+<button class="bg-white text-primary-container px-8 py-4 rounded-full font-label-sm min-h-[48px] hover:bg-surface-container-low transition-all duration-300">
+                        Volunteer
+                    </button>
+<button class="border border-white/30 text-white px-8 py-4 rounded-full font-label-sm min-h-[48px] hover:bg-white/10 transition-all duration-300">
+                        Partner
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer from JSON -->
+<footer class="bg-[#0B1F3A] dark:bg-black w-full py-20 px-8 border-t border-slate-800">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+<div>
+<span class="text-2xl font-bold text-white mb-6 block">Innovate Hub</span>
+<p class="font-noto-serif text-sm text-slate-400">
+                    © 2024 Innovate Hub Foundation. Advancing global equity through technology.
+                </p>
+</div>
+<div class="flex flex-wrap gap-6 md:justify-end items-start">
+<a class="font-noto-serif text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200" href="#">Privacy Policy</a>
+<a class="font-noto-serif text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200" href="#">Terms of Service</a>
+<a class="font-noto-serif text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200" href="#">Annual Report</a>
+<a class="font-noto-serif text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200" href="#">Contact Us</a>
+<a class="font-noto-serif text-sm text-slate-400 hover:text-blue-400 transition-colors duration-200" href="#">Careers</a>
+</div>
+</div>
+</footer>
+</body></html>
