@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Donation;
+use App\Services\GoHighLevelService;
 use Illuminate\Http\Request;
 use Stripe\Checkout\Session as CheckoutSession;
 use Stripe\Stripe;
@@ -83,6 +84,23 @@ class DonateController extends Controller
 
         if ($donation && in_array($session->payment_status, ['paid', 'no_payment_required'])) {
             $donation->update(['status' => 'completed']);
+
+            if (! $donation->is_anonymous && $donation->email) {
+                app(GoHighLevelService::class)->upsertContact(
+                    data: [
+                        'first_name' => $donation->first_name,
+                        'last_name'  => $donation->last_name,
+                        'email'      => $donation->email,
+                        'source'     => 'website-donation-form',
+                    ],
+                    tags: ['website-donation-form', 'donor', "frequency-{$donation->frequency}"],
+                    customFields: [
+                        'donation_amount'    => $donation->amount,
+                        'donation_frequency' => $donation->frequency,
+                        'donation_message'   => $donation->message,
+                    ],
+                );
+            }
         }
 
         return view('pages.donate-success', compact('donation', 'session'));
