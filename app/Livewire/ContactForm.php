@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Mail\ContactMail;
+use App\Services\GoHighLevelService;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -40,6 +41,19 @@ class ContactForm extends Component
             topic:       $this->topic,
             body:        $this->body,
         ));
+
+        app(GoHighLevelService::class)->upsertContact(
+            data: [
+                'name'   => $this->name,
+                'email'  => $this->email,
+                'source' => 'website-contact-form',
+            ],
+            tags: ['website-contact-form', "topic-{$this->topic}"],
+            customFields: [
+                'contact_topic'   => $this->topic,
+                'contact_message' => $this->body,
+            ],
+        );
 
         $this->sentName = $this->name;
         $this->reset(['name', 'email', 'topic', 'body']);

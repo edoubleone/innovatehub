@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +16,7 @@
 
     @stack('head')
 </head>
+
 <body>
     @include('partials.navbar')
 
@@ -26,5 +28,7 @@
 
     @livewireScripts
     @stack('scripts')
+    <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6aa457265b2ec56e21e600c6"></script>
 </body>
+
 </html>

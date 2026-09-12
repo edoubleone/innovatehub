@@ -5,6 +5,7 @@ namespace App\Livewire;
 use App\Mail\ApplicationMail;
 use App\Models\Application;
 use App\Models\Cohort;
+use App\Services\GoHighLevelService;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -80,6 +81,22 @@ class ApplicationForm extends Component
         ]);
 
         Mail::to('hello@exam.com')->send(new ApplicationMail($application));
+
+        app(GoHighLevelService::class)->upsertContact(
+            data: [
+                'first_name' => $this->first_name,
+                'last_name'  => $this->last_name,
+                'email'      => $this->email,
+                'phone'      => $this->phone ?: null,
+                'source'     => 'website-application-form',
+            ],
+            tags: ['website-application-form', "program-{$this->program_slug}"],
+            customFields: [
+                'program'    => $this->program_slug,
+                'experience' => $this->experience,
+                'why'        => $this->why,
+            ],
+        );
 
         session()->flash('applicant_first_name', $application->first_name);
 
